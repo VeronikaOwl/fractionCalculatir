@@ -12,7 +12,7 @@
 
 @synthesize numerator, denominator;
 
-- (void) setTo:(int)n over:(int)d
+- (void) setTo:(NSInteger)n over:(NSInteger)d
 {
   numerator = n;
   denominator = d;
@@ -20,7 +20,7 @@
 
 - (void) print
 {
-  NSLog(@"%i/%i", numerator, denominator);
+  NSLog(@"%li/%li", numerator, denominator);
 }
 
 - (double) convertToNum
@@ -41,9 +41,9 @@
       return @"1";
   }
   else if (denominator == 1)
-    return [NSString stringWithFormat: @"%i", numerator];
+    return [NSString stringWithFormat: @"%li", numerator];
   else
-    return [NSString stringWithFormat: @"%i/%i", numerator, denominator];
+    return [NSString stringWithFormat: @"%li/%li", numerator, denominator];
 }
 
 #pragma mark - calculation methods
@@ -93,9 +93,9 @@
 
 - (void) reduce
 {
-  int u = numerator;
-  int v = denominator;
-  int temp;
+  NSInteger u = numerator;
+  NSInteger v = denominator;
+  NSInteger temp;
   
   if (u == 0)
     return;

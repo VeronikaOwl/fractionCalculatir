@@ -16,7 +16,7 @@
 @implementation ViewController
 {
   char op;
-  int currentNumber;
+  NSInteger currentNumber;
   BOOL firstOperand, isNumerator;
   VFCalculator *myCalculator;
   NSMutableString *displayString;
@@ -35,11 +35,11 @@
   // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void) processDigit:(int)digit
+- (void) processDigit:(NSInteger)digit
 {
   currentNumber = currentNumber * 10 + digit;
   
-  [displayString appendString: [NSString stringWithFormat: @"%i", digit]];
+  [displayString appendString: [NSString stringWithFormat: @"%li", digit]];
   display.text = displayString;
 }
 

@@ -12,7 +12,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *display;
 
-- (void) processDigit: (int) digit;
+- (void) processDigit: (NSInteger) digit;
 - (void) processOp: (char) theOp;
 - (void) storeFracPart;
 
