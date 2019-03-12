@@ -13,6 +13,12 @@
 @end
 
 @implementation ViewController
+{
+  char op;
+  int currentNumber;
+  BOOL firstOperand, isNumerator;
+}
+
 
 - (void)viewDidLoad {
   [super viewDidLoad];
