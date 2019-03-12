@@ -13,6 +13,8 @@
 		F65CBAA72236997000027BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F65CBAA62236997000027BAA /* Assets.xcassets */; };
 		F65CBAAA2236997000027BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65CBAA82236997000027BAA /* LaunchScreen.storyboard */; };
 		F65CBAAD2236997000027BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CBAAC2236997000027BAA /* main.m */; };
+		F65CBAB9223787CC00027BAA /* VFCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CBAB8223787CC00027BAA /* VFCalculator.m */; };
+		F65CBABD2237881600027BAA /* VFFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F65CBABC2237881600027BAA /* VFFraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		F65CBAA92236997000027BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65CBAAB2236997000027BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F65CBAAC2236997000027BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F65CBAB7223787CC00027BAA /* VFCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFCalculator.h; sourceTree = "<group>"; };
+		F65CBAB8223787CC00027BAA /* VFCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFCalculator.m; sourceTree = "<group>"; };
+		F65CBABB2237881600027BAA /* VFFraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFFraction.h; sourceTree = "<group>"; };
+		F65CBABC2237881600027BAA /* VFFraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VFFraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		F65CBA9C2236996E00027BAA /* VFCalculatorFromBook */ = {
 			isa = PBXGroup;
 			children = (
+				F65CBABA223787FC00027BAA /* VFFraction */,
+				F65CBAB62237877B00027BAA /* VFCalculator */,
 				F65CBA9D2236996E00027BAA /* AppDelegate.h */,
 				F65CBA9E2236996E00027BAA /* AppDelegate.m */,
 				F65CBAA02236996E00027BAA /* ViewController.h */,
@@ -69,6 +77,24 @@
 				F65CBAAC2236997000027BAA /* main.m */,
 			);
 			path = VFCalculatorFromBook;
+			sourceTree = "<group>";
+		};
+		F65CBAB62237877B00027BAA /* VFCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F65CBAB7223787CC00027BAA /* VFCalculator.h */,
+				F65CBAB8223787CC00027BAA /* VFCalculator.m */,
+			);
+			path = VFCalculator;
+			sourceTree = "<group>";
+		};
+		F65CBABA223787FC00027BAA /* VFFraction */ = {
+			isa = PBXGroup;
+			children = (
+				F65CBABB2237881600027BAA /* VFFraction.h */,
+				F65CBABC2237881600027BAA /* VFFraction.m */,
+			);
+			path = VFFraction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +169,9 @@
 			files = (
 				F65CBAA22236996E00027BAA /* ViewController.m in Sources */,
 				F65CBAAD2236997000027BAA /* main.m in Sources */,
+				F65CBABD2237881600027BAA /* VFFraction.m in Sources */,
 				F65CBA9F2236996E00027BAA /* AppDelegate.m in Sources */,
+				F65CBAB9223787CC00027BAA /* VFCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
