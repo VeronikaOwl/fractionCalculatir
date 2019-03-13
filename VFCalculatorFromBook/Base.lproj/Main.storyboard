@@ -61,9 +61,10 @@
                                                 <rect key="frame" x="27.5" y="17" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="Over"/>
                                                 <connections>
                                                     <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QT8-El-A3S"/>
+                                                    <action selector="clickOver" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNP-x3-ofg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -80,9 +81,10 @@
                                                 <rect key="frame" x="27.5" y="17" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="="/>
                                                 <connections>
                                                     <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GqU-op-gJF"/>
+                                                    <action selector="clickEquals" destination="BYZ-38-t0r" eventType="touchUpInside" id="rki-4F-iPV"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -95,13 +97,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTv-5T-7qx">
                                         <rect key="frame" x="0.0" y="373.5" width="125" height="93"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jy-QV-Aba">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jy-QV-Aba">
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="1"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rzV-u3-n6G"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DQi-TE-5nb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -114,13 +116,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgr-un-Zyj">
                                         <rect key="frame" x="125" y="373.5" width="125" height="93"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th2-7L-NkI">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="th2-7L-NkI">
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="2"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2FR-tg-EMh"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ygh-2S-NyW"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -133,13 +135,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qd1-st-fJA">
                                         <rect key="frame" x="250" y="373.5" width="125" height="93"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cD9-GO-pjP">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cD9-GO-pjP">
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="3"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FQn-ii-y5w"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jcf-hw-v4A"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -152,13 +154,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9S-bT-dd5">
                                         <rect key="frame" x="0.0" y="280" width="125" height="93.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4k-y2-3KW">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4k-y2-3KW">
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="4"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ld-ka-9wt"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p2E-Rx-biT"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -171,13 +173,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SsW-yI-rTF">
                                         <rect key="frame" x="125" y="280" width="125" height="93.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWq-nU-4gQ">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWq-nU-4gQ">
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="5"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hH8-et-kMe"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SPq-iM-3p5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -190,13 +192,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zgb-Sg-Hb1">
                                         <rect key="frame" x="250" y="280" width="125" height="93.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1E-8J-1mh">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1E-8J-1mh">
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="6"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="etV-6F-nWF"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c7T-ZL-wS9"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -209,13 +211,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FOE-rO-kj7">
                                         <rect key="frame" x="0.0" y="186.5" width="125" height="93.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPv-ZA-EBt">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPv-ZA-EBt">
                                                 <rect key="frame" x="27.5" y="17" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="7"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="28h-AN-47N"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m3U-F7-6jd"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -228,13 +230,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9l-B0-yIx">
                                         <rect key="frame" x="125" y="186.5" width="125" height="93.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puf-Yx-yS5">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puf-Yx-yS5">
                                                 <rect key="frame" x="27.5" y="17" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="8"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JFi-pb-c21"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fJB-10-5cH"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -247,13 +249,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jo9-4x-20R">
                                         <rect key="frame" x="250" y="186.5" width="125" height="93.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-3w-wqf">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-3w-wqf">
                                                 <rect key="frame" x="27.5" y="17" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="9"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sae-9n-dpl"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdu-MF-V7u"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -270,9 +272,10 @@
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="*"/>
                                                 <connections>
                                                     <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OmY-aT-DZS"/>
+                                                    <action selector="clickMultiply" destination="BYZ-38-t0r" eventType="touchUpInside" id="dqN-LB-Iea"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -289,9 +292,10 @@
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="/"/>
                                                 <connections>
                                                     <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XyX-Y1-yvz"/>
+                                                    <action selector="clickDivide" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ajb-1V-Qvl"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -308,9 +312,10 @@
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="+"/>
                                                 <connections>
                                                     <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8d-6e-Kah"/>
+                                                    <action selector="clickPlus" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ZX-Nt-dCO"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -327,9 +332,10 @@
                                                 <rect key="frame" x="27.5" y="16.5" width="70" height="60"/>
                                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="-"/>
                                                 <connections>
                                                     <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wvZ-l7-rAH"/>
+                                                    <action selector="clickMinus" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQQ-dQ-DCM"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -349,8 +355,9 @@
                                                     <constraint firstAttribute="width" constant="70" id="yCH-D2-Lee"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="0"/>
+                                                <state key="normal" title="C"/>
                                                 <connections>
+                                                    <action selector="clickClear" destination="BYZ-38-t0r" eventType="touchUpInside" id="W8P-I0-bTH"/>
                                                     <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j7G-gE-CHK"/>
                                                 </connections>
                                             </button>
@@ -482,6 +489,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="display" destination="Mme-S4-qDX" id="Y3o-qR-6CF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
