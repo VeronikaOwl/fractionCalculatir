@@ -26,13 +26,13 @@
 
 - (void)viewDidLoad
 {
+  [super viewDidLoad];
+  // Do any additional setup after loading the view, typically from a nib.
+  
   firstOperand = YES;
   isNumerator = YES;
   displayString = [NSMutableString stringWithCapacity: 40];
   myCalculator = [[VFCalculator alloc] init];
-  
-  //[super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void) processDigit:(NSInteger)digit
@@ -87,7 +87,7 @@
     if (isNumerator)
     {
       myCalculator.operand1.numerator = currentNumber;
-      myCalculator.operand1.denominator = 1; //for excample 3 * 4/5 =
+      myCalculator.operand1.denominator = 1; //for example 3 * 4/5 =
     }
     else
       myCalculator.operand1.denominator = currentNumber;
@@ -110,7 +110,7 @@
 {
   [self storeFracPart];
   isNumerator = NO;
-  [displayString appendString: @"/"];
+  [displayString appendString: @"|"];
   display.text = displayString;
 }
 

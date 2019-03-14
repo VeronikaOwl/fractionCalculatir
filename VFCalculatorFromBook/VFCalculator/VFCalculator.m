@@ -29,6 +29,10 @@
 {
   accumulator.numerator = 0;
   accumulator.denominator = 0;
+  operand1.numerator = 0;
+  operand1.denominator = 0;
+  operand2.numerator = 0;
+  operand2.denominator = 0;
 }
 
 - (VFFraction *) performOperator:(char)op

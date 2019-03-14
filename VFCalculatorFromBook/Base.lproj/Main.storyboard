@@ -63,7 +63,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="Over"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QT8-El-A3S"/>
                                                     <action selector="clickOver" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNP-x3-ofg"/>
                                                 </connections>
                                             </button>
@@ -83,7 +82,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="="/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GqU-op-gJF"/>
                                                     <action selector="clickEquals" destination="BYZ-38-t0r" eventType="touchUpInside" id="rki-4F-iPV"/>
                                                 </connections>
                                             </button>
@@ -274,7 +272,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="*"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OmY-aT-DZS"/>
                                                     <action selector="clickMultiply" destination="BYZ-38-t0r" eventType="touchUpInside" id="dqN-LB-Iea"/>
                                                 </connections>
                                             </button>
@@ -294,7 +291,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="/"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0NP-QA-9oa"/>
                                                     <action selector="clickDivide" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJh-1y-mVa"/>
                                                 </connections>
                                             </button>
@@ -314,7 +310,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="+"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8d-6e-Kah"/>
                                                     <action selector="clickPlus" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ZX-Nt-dCO"/>
                                                 </connections>
                                             </button>
@@ -334,7 +329,6 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="-"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wvZ-l7-rAH"/>
                                                     <action selector="clickMinus" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQQ-dQ-DCM"/>
                                                 </connections>
                                             </button>
@@ -358,7 +352,6 @@
                                                 <state key="normal" title="C"/>
                                                 <connections>
                                                     <action selector="clickClear" destination="BYZ-38-t0r" eventType="touchUpInside" id="W8P-I0-bTH"/>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j7G-gE-CHK"/>
                                                 </connections>
                                             </button>
                                         </subviews>
