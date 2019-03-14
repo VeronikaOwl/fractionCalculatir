@@ -294,8 +294,8 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="/"/>
                                                 <connections>
-                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XyX-Y1-yvz"/>
-                                                    <action selector="clickDivide" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ajb-1V-Qvl"/>
+                                                    <action selector="clickDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0NP-QA-9oa"/>
+                                                    <action selector="clickDivide" destination="BYZ-38-t0r" eventType="touchUpInside" id="hJh-1y-mVa"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -490,7 +490,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="display" destination="Mme-S4-qDX" id="Y3o-qR-6CF"/>
+                        <outlet property="display" destination="Mme-S4-qDX" id="ByZ-KV-7QY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

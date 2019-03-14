@@ -39,7 +39,8 @@
 {
   currentNumber = currentNumber * 10 + digit;
   
-  [displayString appendString: [NSString stringWithFormat: @"%li", digit]];
+  [displayString appendString:
+   [NSString stringWithFormat: @"%li", digit]];
   display.text = displayString;
 }
 
@@ -132,7 +133,7 @@
 
 - (IBAction) clickDivide
 {
-  [self processOp: '-'];
+  [self processOp: '/'];
 }
 
 #pragma mark - other keys
