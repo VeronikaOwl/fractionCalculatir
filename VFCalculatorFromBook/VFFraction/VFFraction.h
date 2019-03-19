@@ -12,10 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VFFraction : NSObject
 
-@property int numerator, denominator;
+@property NSInteger numerator, denominator;
 
 - (void) print;
-- (void) setTo: (int) n over: (int) d;
+- (void) setTo: (NSInteger) n over: (NSInteger) d;
 - (VFFraction *)      add: (VFFraction *) f;
 - (VFFraction *) subtract: (VFFraction *) f;
 - (VFFraction *) multiply: (VFFraction *) f;

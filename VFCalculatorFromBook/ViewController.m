@@ -16,7 +16,7 @@
 @implementation ViewController
 {
   char op;
-  int currentNumber;
+  NSInteger currentNumber;
   BOOL firstOperand, isNumerator;
   VFCalculator *myCalculator;
   NSMutableString *displayString;
@@ -26,20 +26,21 @@
 
 - (void)viewDidLoad
 {
+  [super viewDidLoad];
+  // Do any additional setup after loading the view, typically from a nib.
+  
   firstOperand = YES;
   isNumerator = YES;
   displayString = [NSMutableString stringWithCapacity: 40];
   myCalculator = [[VFCalculator alloc] init];
-  
-  //[super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void) processDigit:(int)digit
+- (void) processDigit:(NSInteger)digit
 {
   currentNumber = currentNumber * 10 + digit;
   
-  [displayString appendString: [NSString stringWithFormat: @"%i", digit]];
+  [displayString appendString:
+   [NSString stringWithFormat: @"%li", digit]];
   display.text = displayString;
 }
 
@@ -86,7 +87,7 @@
     if (isNumerator)
     {
       myCalculator.operand1.numerator = currentNumber;
-      myCalculator.operand1.denominator = 1; //for excample 3 * 4/5 =
+      myCalculator.operand1.denominator = 1; //for example 3 * 4/5 =
     }
     else
       myCalculator.operand1.denominator = currentNumber;
@@ -109,7 +110,7 @@
 {
   [self storeFracPart];
   isNumerator = NO;
-  [displayString appendString: @"/"];
+  [displayString appendString: @"|"];
   display.text = displayString;
 }
 
@@ -132,7 +133,7 @@
 
 - (IBAction) clickDivide
 {
-  [self processOp: '-'];
+  [self processOp: '/'];
 }
 
 #pragma mark - other keys
